@@ -1,6 +1,6 @@
 version: 2
-endpoint: https://full-macaque-53.hasura.app
+endpoint: https://keen-quagga-91.hasura.app
 metadata_directory: metadata
 actions:
   kind: synchronous
-  handler_webhook_baseurl: https://full-macaque-53.hasura.app
+  handler_webhook_baseurl: https://keen-quagga-91.hasura.app

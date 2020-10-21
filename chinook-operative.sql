@@ -141,6 +141,43 @@ name varchar(25) COLLATE "default" NOT NULL,
 "last_update" timestamp(6) DEFAULT now() NOT NULL
 );
 
+alter table "public"."albums"
+           add constraint "albums_artist_id_fkey"
+           foreign key ("artist_id")
+           references "public"."artists"
+           ("id") on update restrict on delete restrict;
+
+alter table "public"."customers"
+           add constraint "customers_support_rep_id_fkey"
+           foreign key ("support_rep_id")
+           references "public"."employees"
+           ("id") on update restrict on delete restrict;
+
+alter table "public"."film_actor"
+    add constraint "film_actor_pkey" 
+    primary key ( "actor_id", "film_id" );
+
+alter table "public"."films"
+    add constraint "films_pkey" 
+    primary key ( "id" );
+alter table "public"."actors"
+    add constraint "actors_pkey" 
+    primary key ( "id" );
+alter table "public"."film_actor"
+           add constraint "film_actor_actor_id_fkey"
+           foreign key ("actor_id")
+           references "public"."actors"
+           ("id") on update restrict on delete restrict;
+alter table "public"."film_actor"
+           add constraint "film_actor_film_id_fkey"
+           foreign key ("film_id")
+           references "public"."films"
+           ("id") on update restrict on delete restrict;
+           
+alter table "public"."categories"
+    add constraint "categories_pkey" 
+    primary key ( "id" );
+
 INSERT INTO genres (id, name) VALUES (1, N'Rock');
 INSERT INTO genres (id, name) VALUES (2, N'Jazz');
 INSERT INTO genres (id, name) VALUES (3, N'Metal');
