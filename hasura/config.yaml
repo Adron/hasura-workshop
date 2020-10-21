@@ -1,6 +1,6 @@
 version: 2
-endpoint: https://keen-quagga-91.hasura.app
+endpoint: https://native-narwhal-95.hasura.app/
 metadata_directory: metadata
 actions:
   kind: synchronous
-  handler_webhook_baseurl: https://keen-quagga-91.hasura.app
+  handler_webhook_baseurl: https://native-narwhal-95.hasura.app/

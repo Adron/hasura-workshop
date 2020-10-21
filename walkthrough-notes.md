@@ -1,10 +1,21 @@
 # Walkthrough 
 
-Add chinook database
+1. Add chinook database. re: chinook-operative.sql
 
-https://raw.githubusercontent.com/coco98/chinook-postgres-dump/master/chinook_pg_serial_pk_proper_naming.sql
+2. Add authorization.
 
-Add authorization
+
+
+2. Setup an action.
+
+  https://hasura.io/blog/turn-your-java-rest-api-to-graphql-using-hasura-actions/
+
+
+
+
+2. Add authorization
+
+
 Add external graphql schema and show relationships and federation (use stripe?)
 Add REST endpoint to show SpringBoot
 Add event-trigger with SpringBoot
