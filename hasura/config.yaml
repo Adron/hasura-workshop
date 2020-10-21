@@ -1,0 +1,6 @@
+version: 2
+endpoint: https://full-macaque-53.hasura.app
+metadata_directory: metadata
+actions:
+  kind: synchronous
+  handler_webhook_baseurl: https://full-macaque-53.hasura.app
