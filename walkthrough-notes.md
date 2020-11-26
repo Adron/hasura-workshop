@@ -2,29 +2,17 @@
 
 1. Add chinook database. re: chinook-operative.sql
 
-2. Add authorization.
+2. Add authorization. etc.
 
+https://hasura.io/learn/graphql/hasura/data-modelling/
 
+- skip authentication.
 
-2. Setup an action.
+3. Actions, Types, etc.
 
-  https://hasura.io/blog/turn-your-java-rest-api-to-graphql-using-hasura-actions/
+- https://hasura.io/docs/1.0/graphql/core/actions/create.html
 
-
-
-
-2. Add authorization
-
-
-Add external graphql schema and show relationships and federation (use stripe?)
-Add REST endpoint to show SpringBoot
-Add event-trigger with SpringBoot
-
-
-
-
-
-Wrap Up: Highlight some cool things coming up:
+## Wrap Up: Highlight some cool things coming up:
 
 Check out where we regularly stream, our Twitch channel, or if you prefer our YouTube channel!
 
@@ -38,4 +26,13 @@ https://www.youtube.com/thrashingcode
 
 Do a quick demo of the monitoring tab and tell people they can get easy integrations into whatever they want
 Remote schema permissions: role based schemas
-MySQL, SQL Server
+MySQL, SQL Server.
+
+
+
+https://hasura.io/enterprisegraphql/talks/enabling-innovation-and-empowering-developers-graphqls-role-in-the-enterprise/
+
+
+
+can u hear?
+
